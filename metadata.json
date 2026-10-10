@@ -1,0 +1,6 @@
+{
+  "name": "New Day Hotel - Addis Ababa",
+  "description": "Official booking and information portal for New Day Hotel at 22 Mazoria Djibouti Street, Addis Ababa, Ethiopia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
