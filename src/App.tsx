@@ -90,7 +90,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 1,
     bedType: 'Single Bed',
     description: 'Cozy and quiet room designed for solo travelers seeking comfort, high-speed Wi-Fi, and work convenience.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['Free Wi-Fi', 'Breakfast Included', 'Air Conditioning', 'TV', 'Desk'],
     available: true
   },
@@ -101,7 +101,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 2,
     bedType: 'Double Bed',
     description: 'Spacious room featuring a comfortable double bed, modern en-suite bathroom, and city views.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['Free Wi-Fi', 'Breakfast', 'Parking', 'Air Conditioning', 'TV', 'Room Service'],
     available: true
   },
@@ -112,7 +112,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 2,
     bedType: '2 Twin Beds',
     description: 'Ideal for colleagues or friends travelling together, equipped with two comfortable twin beds and premium amenities.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['Free Wi-Fi', 'Breakfast', 'Parking', 'Air Conditioning', 'TV', 'Tea/Coffee'],
     available: true
   },
@@ -123,7 +123,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 2,
     bedType: 'King Size Bed',
     description: 'Our signature deluxe experience with an expansive king bed, upscale seating area, and panoramic views of Addis Ababa.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['King Bed', 'Free Wi-Fi', 'Breakfast', 'Airport Transport', 'Gym Access', 'Mini Bar'],
     available: true
   },
@@ -134,7 +134,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 2,
     bedType: 'King Size Bed',
     description: 'Designed for business leaders, offering extra workspace, high-end luxury linens, and complimentary executive lounge privileges.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['Executive Lounge', 'King Bed', 'Free Wi-Fi', 'Breakfast', 'Airport Pickup', 'Room Service'],
     available: true
   },
@@ -145,7 +145,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 4,
     bedType: '1 King & 2 Twin Beds',
     description: 'Generously proportioned multi-bed suite tailored for families looking for space, relaxation, and top-tier hospitality.',
-    image: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg',
+    image: '/images/hotel_room_deluxe_1791640608938.jpg',
     amenities: ['Multi-bed Suite', 'Free Wi-Fi', 'Breakfast', 'Kitchenette corner', 'Air Conditioning', 'TV'],
     available: true
   },
@@ -156,7 +156,7 @@ const INITIAL_ROOMS: Room[] = [
     capacity: 2,
     bedType: 'King Size Bed',
     description: 'Ultimate luxury featuring a private hydrotherapy jacuzzi bathtub, lavish king bedroom, and premium city views.',
-    image: '/src/assets/images/hotel_jacuzzi_suite_1791640636718.jpg',
+    image: '/images/hotel_jacuzzi_suite_1791640636718.jpg',
     amenities: ['Private Jacuzzi', 'King Bed', 'Free Wi-Fi', 'Champagne on arrival', 'Breakfast', 'Airport Transfer'],
     available: true
   }
@@ -377,7 +377,7 @@ export default function App() {
             <section className="relative min-h-screen flex items-center justify-center bg-[#1C1A17] text-white px-4 py-20 overflow-hidden">
               <div className="absolute inset-0 z-0 opacity-55">
                 <img
-                  src="/src/assets/images/hotel_exterior_dusk_1791640598426.jpg"
+                  src="/images/hotel_exterior_dusk_1791640598426.jpg"
                   alt="New Day Hotel Exterior Addis Ababa"
                   className="w-full h-full object-cover"
                 />
@@ -478,7 +478,7 @@ export default function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div className="bg-white p-6 rounded-2xl border border-[#EAE4DD] shadow-sm hover:shadow-md transition-shadow space-y-4">
                   <div className="h-48 rounded-xl overflow-hidden">
-                    <img src="/src/assets/images/hotel_room_deluxe_1791640608938.jpg" alt="Comfortable Rooms" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                    <img src="/images/hotel_room_deluxe_1791640608938.jpg" alt="Comfortable Rooms" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                   </div>
                   <h3 className="text-lg font-bold text-[#1C1A17]">Comfortable Rooms</h3>
                   <p className="text-sm text-[#57534E]">Clean, spacious accommodation with plush bedding, high-speed Wi-Fi, and modern amenities for a relaxing stay.</p>
@@ -486,7 +486,7 @@ export default function App() {
 
                 <div className="bg-white p-6 rounded-2xl border border-[#EAE4DD] shadow-sm hover:shadow-md transition-shadow space-y-4">
                   <div className="h-48 rounded-xl overflow-hidden">
-                    <img src="/src/assets/images/hotel_restaurant_dining_1791640624953.jpg" alt="Dining" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                    <img src="/images/hotel_restaurant_dining_1791640624953.jpg" alt="Dining" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                   </div>
                   <h3 className="text-lg font-bold text-[#1C1A17]">Exquisite Dining</h3>
                   <p className="text-sm text-[#57534E]">Savor authentic local Ethiopian delicacies and international culinary masterpieces in our refined restaurant and bar.</p>
@@ -494,7 +494,7 @@ export default function App() {
 
                 <div className="bg-white p-6 rounded-2xl border border-[#EAE4DD] shadow-sm hover:shadow-md transition-shadow space-y-4">
                   <div className="h-48 rounded-xl overflow-hidden">
-                    <img src="/src/assets/images/hotel_jacuzzi_suite_1791640636718.jpg" alt="Relaxation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                    <img src="/images/hotel_jacuzzi_suite_1791640636718.jpg" alt="Relaxation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                   </div>
                   <h3 className="text-lg font-bold text-[#1C1A17]">Relaxation & Jacuzzi</h3>
                   <p className="text-sm text-[#57534E]">Unwind in our premium suites featuring private hydrotherapy jacuzzi bathtubs and serene spa-like environments.</p>
@@ -502,7 +502,7 @@ export default function App() {
 
                 <div className="bg-white p-6 rounded-2xl border border-[#EAE4DD] shadow-sm hover:shadow-md transition-shadow space-y-4">
                   <div className="h-48 rounded-xl overflow-hidden">
-                    <img src="/src/assets/images/hotel_exterior_dusk_1791640598426.jpg" alt="Addis Ababa Views" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                    <img src="/images/hotel_exterior_dusk_1791640598426.jpg" alt="Addis Ababa Views" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
                   </div>
                   <h3 className="text-lg font-bold text-[#1C1A17]">Prime Addis Views</h3>
                   <p className="text-sm text-[#57534E]">Enjoy breathtaking skyline views of Addis Ababa right from your room window and our rooftop viewing areas.</p>
@@ -694,10 +694,10 @@ export default function App() {
 
               <div className="grid grid-cols-2 gap-4">
                 <div className="h-64 rounded-2xl overflow-hidden shadow-md">
-                  <img src="/src/assets/images/hotel_restaurant_dining_1791640624953.jpg" alt="Restaurant Interior" className="w-full h-full object-cover" />
+                  <img src="/images/hotel_restaurant_dining_1791640624953.jpg" alt="Restaurant Interior" className="w-full h-full object-cover" />
                 </div>
                 <div className="h-64 rounded-2xl overflow-hidden shadow-md mt-8">
-                  <img src="/src/assets/images/hotel_room_deluxe_1791640608938.jpg" alt="Dining Experience" className="w-full h-full object-cover" />
+                  <img src="/images/hotel_room_deluxe_1791640608938.jpg" alt="Dining Experience" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -729,12 +729,12 @@ export default function App() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { src: '/src/assets/images/hotel_exterior_dusk_1791640598426.jpg', title: 'Exterior at Dusk', cat: 'views' },
-                { src: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg', title: 'Deluxe King Room', cat: 'rooms' },
-                { src: '/src/assets/images/hotel_restaurant_dining_1791640624953.jpg', title: 'Restaurant & Dining', cat: 'restaurant' },
-                { src: '/src/assets/images/hotel_jacuzzi_suite_1791640636718.jpg', title: 'Jacuzzi Suite Bathroom', cat: 'jacuzzi' },
-                { src: '/src/assets/images/hotel_reception_lobby_1791640649045.jpg', title: 'Reception & Lobby', cat: 'interiors' },
-                { src: '/src/assets/images/hotel_room_deluxe_1791640608938.jpg', title: 'Standard Room Interior', cat: 'rooms' }
+                { src: '/images/hotel_exterior_dusk_1791640598426.jpg', title: 'Exterior at Dusk', cat: 'views' },
+                { src: '/images/hotel_room_deluxe_1791640608938.jpg', title: 'Deluxe King Room', cat: 'rooms' },
+                { src: '/images/hotel_restaurant_dining_1791640624953.jpg', title: 'Restaurant & Dining', cat: 'restaurant' },
+                { src: '/images/hotel_jacuzzi_suite_1791640636718.jpg', title: 'Jacuzzi Suite Bathroom', cat: 'jacuzzi' },
+                { src: '/images/hotel_reception_lobby_1791640649045.jpg', title: 'Reception & Lobby', cat: 'interiors' },
+                { src: '/images/hotel_room_deluxe_1791640608938.jpg', title: 'Standard Room Interior', cat: 'rooms' }
               ]
                 .filter(item => galleryFilter === 'all' || item.cat === galleryFilter)
                 .map((img, idx) => (
